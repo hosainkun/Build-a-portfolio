@@ -1,0 +1,36 @@
+header {
+  text-align: center;
+  background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rJI8ZWzzio4bewvs/hundreds-of-blurred-light-blue-hearts-slowly-rise-up-on-a-blue-background_b6ntvekg__F0001.png');
+  background-position: center;
+  background-size: cover;
+  color: #A91;
+}
+a {
+  color: white;
+}
+h1 {
+  font-size: 70px;
+}
+.catPic {
+  margin: 40px 0px 0px 0px;
+  border: 4px solid white;
+  border-radius: 100px;
+  width: 100%;
+  height: auto;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+    font-size: 15px;
+  }
+}
